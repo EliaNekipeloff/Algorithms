@@ -119,7 +119,11 @@ public class Counter {
     }
 
 
-
+    /**
+     * Main function, takes the data from program arguments
+     * @param args: path to input file, sum to compare, the array's size
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception{
             int argsLength = args.length;
             switch (argsLength) {
